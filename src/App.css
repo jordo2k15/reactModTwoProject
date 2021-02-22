@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  font-family:Impact, fantasy;
-  font-size: 50px;
+  background-color: rgb(255, 234, 193);
+  height: 300px;
+  width: 300px;
 }
 
 .App-logo {
@@ -42,4 +43,18 @@
 .moduleButton{
   margin-left: 150px;
   margin-bottom: 80px;
+}
+.pokemonHidden{
+    text-align: center;
+    filter:contrast(0%) brightness(0%);
+}
+.pokemonShow{
+  text-align: center;
+  filter:contrast(100%) brightness(100%);
+}
+.catch{
+  text-align: center;
+}
+.loading{
+  text-align: center;
 }
